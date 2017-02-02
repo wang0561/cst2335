@@ -23,6 +23,7 @@
         />
 
     <EditText
+        android:id="@+id/editTextLogin"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="login name"
@@ -40,4 +41,10 @@
         android:hint="password"
         android:inputType="textPassword"
         android:layout_weight="0.05" />
+
+    <Button
+        android:text="Login Now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton" />
 </LinearLayout>

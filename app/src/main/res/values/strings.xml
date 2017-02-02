@@ -8,5 +8,9 @@
     <string name="radioB">RadioButton</string>
     <string name="checkB">CheckBox</string>
     <string name="sw">Enable Something</string>
+    <string name="dialog_title">Finish</string>
+    <string name="dialog_message">Do you want to finish the activity?</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
 
 </resources>
