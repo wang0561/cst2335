@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class StartActivity extends AppCompatActivity {
      protected static final String ACTIVITY_NAME="StartActivity";
@@ -26,14 +27,31 @@ public class StartActivity extends AppCompatActivity {
                 }
         );
         Log.i(ACTIVITY_NAME,"In onResume");
+        Button button1 =(Button)findViewById(R.id.chatB);
+        button1.setOnClickListener(
+                new View.OnClickListener(){
+                    public  void onClick(View v){
+                          Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+                         Intent intent=new Intent(StartActivity.this,ChatWindow.class);
+                        startActivity(intent);
+
+                    }
+                }
+
+        );
     }
+
 
     protected  void onActivityResult(int requestCode, int responseCode, Intent data){
 
-        if(requestCode==5 && responseCode== Activity.RESULT_OK){
+        if(requestCode==5 ){
             Log.i(ACTIVITY_NAME,"Returned to StartActivity.onActivityResult");
         }
-
+        if (responseCode== Activity.RESULT_OK){
+            String messagePassed = data.getStringExtra("Response");
+           Toast toast= Toast.makeText(this, messagePassed, Toast.LENGTH_SHORT);
+            toast.show();
+        }
     }
 
     protected void onStart(){
@@ -53,4 +71,7 @@ public class StartActivity extends AppCompatActivity {
         Log.i(ACTIVITY_NAME,"In onDestroy");
     }
 
-}
+
+
+    }
+

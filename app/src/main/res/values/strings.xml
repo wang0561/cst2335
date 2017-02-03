@@ -12,5 +12,9 @@
     <string name="dialog_message">Do you want to finish the activity?</string>
     <string name="ok">ok</string>
     <string name="cancel">cancel</string>
+    <string name="STB">Start Chat</string>
+    <string name="sendButton">Send</string>
+    <string name="TXV">TextView</string>
+
 
 </resources>
