@@ -4,8 +4,9 @@
     <string name="hello_message">你好!</string>
     <string name="ButtonText">I\'m a button!</string>
     <string name="title_activity_login">LoginActivity</string>
-    <string name="login">Login</string>
-    <string name="password">Password</string>
+    <string name="login">登录</string>
+    <string name="logButton">请登录</string>
+    <string name="password">密码</string>
     <string name="radioB">RadioButton</string>
     <string name="checkB">CheckBox</string>
     <string name="sw">Enable Something</string>
@@ -13,7 +14,7 @@
     <string name="dialog_message">Do you want to finish the activity?</string>
     <string name="ok">ok</string>
     <string name="cancel">cancel</string>
-    <string name="stbutton">Start Chat</string>
-    <string name="sendButton">Send</string>
+    <string name="STB">开始</string>
+    <string name="sendButton">发送</string>
     <string name="TXV">TextView</string>
 </resources>

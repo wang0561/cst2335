@@ -5,6 +5,8 @@
     <string name="ButtonText">I\'m a button!</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="login">Login</string>
+    <string name="logButton">login now</string>
+
     <string name="password">Password</string>
     <string name="radioB">RadioButton</string>
     <string name="checkB">CheckBox</string>

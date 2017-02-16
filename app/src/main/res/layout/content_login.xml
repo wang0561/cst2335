@@ -43,7 +43,7 @@
         android:layout_weight="0.05" />
 
     <Button
-        android:text="Login Now"
+        android:text="@string/logButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/loginButton" />

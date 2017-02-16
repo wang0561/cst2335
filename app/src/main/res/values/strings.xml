@@ -3,6 +3,7 @@
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button!</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="logButton">login now</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="radioB">RadioButton</string>
