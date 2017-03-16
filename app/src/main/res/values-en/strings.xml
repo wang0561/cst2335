@@ -18,4 +18,6 @@
     <string name="stbutton">Start Chat</string>
     <string name="sendButton">Send</string>
     <string name="TXV">TextView</string>
+    <string name="WeatherButton">Weather Button</string>
+
 </resources>

@@ -38,4 +38,11 @@
         android:id="@+id/chatB"
         android:layout_below="@+id/button"
         android:layout_alignStart="@+id/button" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WeatherButton"
+        android:id="@+id/weatherB"
+        android:layout_below="@+id/chatB"
+        android:layout_alignStart="@+id/chatB"/>
 </RelativeLayout>

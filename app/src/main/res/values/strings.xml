@@ -16,6 +16,6 @@
     <string name="STB">Start Chat</string>
     <string name="sendButton">Send</string>
     <string name="TXV">TextView</string>
-
+    <string name="WeatherButton">Weather Button</string>
 
 </resources>

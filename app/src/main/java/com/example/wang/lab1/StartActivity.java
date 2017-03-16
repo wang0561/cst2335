@@ -40,6 +40,14 @@ public class StartActivity extends AppCompatActivity {
                 }
 
         );
+        Button button2 = (Button)findViewById(R.id.weatherB);
+        button2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent=new Intent(StartActivity.this,WeatherForecast.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

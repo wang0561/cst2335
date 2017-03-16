@@ -17,4 +17,6 @@
     <string name="STB">开始</string>
     <string name="sendButton">发送</string>
     <string name="TXV">TextView</string>
+    <string name="WeatherButton">天气</string>
+
 </resources>
