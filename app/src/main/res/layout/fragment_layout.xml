@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="MessageHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/messageHere"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="left"
+        android:textSize="50sp" />
+
+    <TextView
+        android:text="ID="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageHere"
+        android:layout_alignStart="@+id/messageHere"
+        android:layout_marginTop="25dp"
+        android:id="@+id/messageID"
+        android:layout_alignParentEnd="true"
+        android:gravity="left"
+        android:textSize="50sp" />
+
+    <Button
+        android:text="Delete this message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/deleteMessage" />
+</RelativeLayout>
